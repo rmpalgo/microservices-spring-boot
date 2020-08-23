@@ -7,7 +7,7 @@ public class Multiplication {
 
     private int result;
 
-    public Multiplication(int factorA, int factorB, int result) {
+    public Multiplication(int factorA, int factorB) {
         this.factorA = factorA;
         this.factorB = factorB;
         this.result = factorA * factorB;
