@@ -1,3 +1,5 @@
+package com.microservicesbook.socialmultiplication.domain;
+
 public class Multiplication {
 
     private int factorA;
@@ -8,7 +10,7 @@ public class Multiplication {
     public Multiplication(int factorA, int factorB, int result) {
         this.factorA = factorA;
         this.factorB = factorB;
-        this.result = result;
+        this.result = factorA * factorB;
     }
 
     public int getFactorA() {
